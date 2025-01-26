@@ -1,0 +1,81 @@
+title: CMing
+baseURL: "https://blog.cmingtech.us.kg"
+timeout: "30s"
+# enableGitInfo: true
+
+module:
+  imports:
+  - path: github.com/imfing/hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+  highlight:
+    noClasses: false
+
+enableInlineShortcodes: true
+
+menu:
+  main:
+    - name: Blog
+      pageRef: /blog
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+    - name: Contact ↗
+      url: "https://github.com/ChisatoLycoris"
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/ChisatoLycoris/CMing"
+      params:
+        icon: github
+    - name: Twitter
+      weight: 6
+      url: "https://twitter.com/"
+      params:
+        icon: x-twitter
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
+
+  theme:
+    # light | dark | system
+    default: dark
+    displayToggle: false
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+
+  editURL:
+    enable: true
+    base: "https://github.com/ChisatoLycoris/CMing/edit/main/content"
+
+  blog:
+    list:
+      displayTags: true
