@@ -1,0 +1,34 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "CMing"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "A personal website created by CMing"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "CMing"
+  email = "changarm429@gmail.com"
+  image = "img/blowfish_logo.png"
+  imageQuality = 96
+  headline = "Baby steps to giant strides."
+  bio = "A backend engineer in Jkopay Co. ltd."
+  links = [
+    { email = "mailto:changarm429@gmail.com" },
+#     { link = "https://link-to-some-website.com/" },
+#     { discord = "https://discord.gg/invitecode" },
+    { github = "https://github.com/ChisatoLycoris" },
+#     { google = "https://www.google.com/" },
+#     { linkedin = "https://linkedin.com/in/username" },
+#     { slack = "https://workspace.url/team/userid" },
+#     { twitter = "https://twitter.com/username" },
+#     { x-twitter = "https://twitter.com/username" },
+  ]
