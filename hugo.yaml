@@ -1,7 +1,7 @@
 title: CMing
 baseURL: "https://blog.cmingtech.us.kg"
 timeout: "30s"
-# enableGitInfo: true
+enableGitInfo: true
 
 module:
   imports:
