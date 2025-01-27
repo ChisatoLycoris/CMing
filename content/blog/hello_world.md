@@ -24,10 +24,10 @@ As 2025 begins, I’ve set some exciting goals for myself this year:
 
 ### The Webpage
 Apparently, this website is the result of my first goal this year.  
-**Hello World!**, though there are not much contents yet.
+**Hello World!** Though there are not much contents yet.
 ##### To made the webpage available on the Internet, here's what I've done.
 - Do research and Choose [Hugo](https://gohugo.io/) to build my website
-- Use [Hextra](https://imfing.github.io/hextra/) as theme and set up my own configuration.
+- Use [Blowfish](https://blowfish.page/) as theme and set up my own configuration.
 - Create a [Github repository](https://github.com/ChisatoLycoris/CMing)
 - Write posts in Markdown
 - Deploy with [Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/)
